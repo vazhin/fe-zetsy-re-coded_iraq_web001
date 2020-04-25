@@ -1,12 +1,9 @@
-/*////////////// Fonts //////////////*/
+
 @font-face {
   font-family: baskerville;
   src: url("./fonts/Baskerville.ttc");
 }
-/* link the web font used for the level 1 heading here */
 
-
-/*////////// Global Styles //////////*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,13 +24,13 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
 .heading a {
   text-decoration: none;
   color: #98ADA6;
   font-size: 5rem;
   font-weight: 300;
 }
+
 .seperator{
   height: 1px;
   width: 100%;
