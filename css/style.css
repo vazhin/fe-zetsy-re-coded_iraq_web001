@@ -71,7 +71,6 @@ body {
 .img-container img {
   border: solid 5px #CCCCCC;
   padding: 2px;
-  display: inline;
 }
 
 .img-container img:hover {
