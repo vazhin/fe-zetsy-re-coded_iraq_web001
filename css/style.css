@@ -29,3 +29,6 @@ body {
 }
 
 /* Write all remaining styles here */
+h1 a {
+  text-decoration: none;
+}
