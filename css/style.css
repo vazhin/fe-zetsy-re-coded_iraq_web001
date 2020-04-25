@@ -55,6 +55,7 @@ body {
 
 .about p {
   color: #555555;
+  text-decoration: none;
 }
 
 .about p a {
