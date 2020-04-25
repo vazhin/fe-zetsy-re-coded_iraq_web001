@@ -18,6 +18,8 @@ body {
 }
 
 .wrapper {
+  position: absolute;
+  top: 0;
 	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
