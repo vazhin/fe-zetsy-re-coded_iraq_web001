@@ -1,20 +1,98 @@
-/*////////////// Fonts //////////////*/
 
-/* link the web font used for the level 1 heading here */
+@font-face {
+  font-family: baskerville;
+  src: url("./fonts/Baskerville.ttc");
+}
 
-/*////////// Global Styles //////////*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: baskerville;
+	color: #6F7F7A;
 }
 
 .wrapper {
-	width: 960px;
+	width: 1050px;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+.heading a {
+  text-decoration: none;
+  color: #98ADA6;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.seperator{
+  height: 1px;
+  width: 100%;
+  background-color: #CCCCCC;
+  margin-bottom: 5px;
+}
+
+.img-necklace {
+  width: 100%;
+}
+
+.img-necklace img {
+  width: 100%;
+  border: solid 5px #98ADA6;
+}
+
+.press h3,
+.about h3 {
+  font-size: 2rem;
+  margin: 25px 0;
+}
+
+.about p {
+  color: #555555;
+  font-size: 16px;
+}
+
+.about p a {
+  color: #1783C7;
+  text-decoration: none;
+}
+
+.img-container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.img-container img {
+  border: solid 5px #CCCCCC;
+  padding: 2px;
+  display: inline-block;
+  width: 230px;
+  margin: 0 auto;
+}
+
+.img-container img:hover {
+  border: solid 5px #6F7F7A;
+}
+
+.footer p {
+  margin: 20px 0;
+  color: #555555;
+  font-size: 13px;
+  text-align: right;
+}
+
+body .wrapper {
+  margin-top: 0 !important;
+}
+
+
+
+
+
+
