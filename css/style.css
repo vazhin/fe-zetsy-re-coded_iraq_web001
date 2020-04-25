@@ -47,6 +47,7 @@ body {
   border: solid 5px #98ADA6;
 }
 
+.press h3,
 .about h3 {
   font-size: 2rem;
   margin: 25px 0;
