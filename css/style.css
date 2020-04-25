@@ -73,6 +73,10 @@ body {
   padding: 2px;
 }
 
+.img-container img:hover {
+  border: solid 5px #6F7F7A;
+}
+
 .footer p {
   margin: 20px 0;
   color: #555555;
