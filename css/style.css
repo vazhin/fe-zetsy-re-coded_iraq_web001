@@ -28,7 +28,7 @@ body {
 }
 
 /* Write all remaining styles here */
-h1 a {
+.heading a {
   display: block;
   text-decoration: none;
   color: #98ADA6;
