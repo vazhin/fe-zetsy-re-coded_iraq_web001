@@ -1,20 +1,30 @@
 /*////////////// Fonts //////////////*/
-
+@font-face {
+  font-family: baskerville;
+  src: url("./fonts/Baskerville.ttc");
+}
 /* link the web font used for the level 1 heading here */
 
+
 /*////////// Global Styles //////////*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: baskerville;
 }
 
 .wrapper {
-	width: 960px;
+	width: 80%;
 	margin: 0 auto;
 	background: #fff;
 	padding: 0 45px 20px;
+	overflow: hidden;
 }
 
 /* Write all remaining styles here */
