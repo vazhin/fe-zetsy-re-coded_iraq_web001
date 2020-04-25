@@ -38,3 +38,8 @@ body {
   border-bottom: solid 1px #CCCCCC;
   padding-bottom: 18px;
 }
+.seperator{
+  height: 1px;
+  width: 100%;
+  background-color: #CCCCCC;
+}
